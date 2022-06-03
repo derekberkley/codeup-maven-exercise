@@ -1,6 +1,7 @@
 import java.util.Scanner;
 import org.apache.commons.lang3.StringUtils;
 
+
 public class userPrompt {
 
     static Scanner scan = new Scanner(System.in);
@@ -18,4 +19,6 @@ public class userPrompt {
         System.out.println("Flipped case: " + StringUtils.swapCase(input));
         System.out.println("Reversed: " + StringUtils.reverse(input));
     }
+
+
 }
